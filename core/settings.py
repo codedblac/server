@@ -16,7 +16,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-default-key")
 DEBUG = os.getenv("DJANGO_DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = [
-    'server-qe4h.onrender.com',  # ← your Render app domain
+    'server-qe4h.onrender.com',  
     '127.0.0.1',
     'localhost'
 ]
@@ -60,13 +60,13 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://adfinitum-trails.vercel.app",
-    "https://adfinitum-backend.onrender.com",
+    'server-qe4h.onrender.com',
     "http://localhost:3000", 
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://adfinitum-trails.vercel.app",
-    "https://adfinitum-backend.onrender.com",
+    'server-qe4h.onrender.com',
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = False
