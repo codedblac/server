@@ -10,7 +10,7 @@ from .models import Address
 User = get_user_model()
 
 
-# -----------------------
+# ---------------------------
 # User Serializer
 # ---------------------------
 class UserSerializer(serializers.ModelSerializer):
