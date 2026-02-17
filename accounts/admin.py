@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 from .models import CustomUser, Address
 
 
-# ----------------------
+# ---------------------------
 # Address Inline for User Admin
 # ---------------------------
 class AddressInline(admin.TabularInline):
