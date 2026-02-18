@@ -12,7 +12,7 @@ User = get_user_model()
 
 # ---------------------------
 # User Serializer
-# ----------------------
+# ---------------------------
 class UserSerializer(serializers.ModelSerializer):
     """Basic serializer for reading user data"""
     class Meta:
