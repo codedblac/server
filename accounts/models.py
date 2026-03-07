@@ -33,7 +33,6 @@ class UserManager(BaseUserManager):
         return self.create_user(email, password, full_name, **extra_fields)
 
 
-
 # Custom User Model
 
 
